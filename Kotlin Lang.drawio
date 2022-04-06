@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T02:58:04.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="g9VaJ6M-89M48Q9hqOIG" version="16.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-06T03:01:37.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="CEItIiQMixsmJvZKtbBV" version="16.6.1" type="github" pages="2">
   <diagram id="XUTN4BySlDO3wBlAgurX" name="Page-1">
     <mxGraphModel dx="638" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
           <mxGeometry x="346" y="360" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vFjYC5-n_VrW79ViCQxg-16" value="gradle/ maven/ ant" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1">
-          <mxGeometry x="396" y="530" width="120" height="80" as="geometry" />
+          <mxGeometry x="530" y="560" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vFjYC5-n_VrW79ViCQxg-17" value="&lt;div&gt;www.manning.com/books/kotlin-in-action.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Jemerov, Dmitry; Isakova, Svetlana. Kotlin em ação (p. 20). Novatec Editora. Kindle Edition.&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1">
           <mxGeometry x="50" y="630" width="510" height="50" as="geometry" />
@@ -137,8 +137,42 @@
         <mxCell id="vFjYC5-n_VrW79ViCQxg-18" value="http://try.kotl.in.&#xa;&#xa;&#xa;Jemerov, Dmitry; Isakova, Svetlana. Kotlin em ação (p. 26). Novatec Editora. Kindle Edition." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1">
           <mxGeometry x="60" y="700" width="510" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="vFjYC5-n_VrW79ViCQxg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1" source="vFjYC5-n_VrW79ViCQxg-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vFjYC5-n_VrW79ViCQxg-19" value="&lt;h1&gt;&lt;span&gt;Estaticamente tipada&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span&gt;toda construção é conhecida em tempo de compilação. O compilador é capaz de validar métodos e campos que estão tentando ser acessados&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1">
-          <mxGeometry x="101" y="450" width="190" height="120" as="geometry" />
+          <mxGeometry x="80" y="450" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vFjYC5-n_VrW79ViCQxg-21" value="chamada de métodos mais rápida" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1">
+          <mxGeometry x="316" y="470" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vFjYC5-n_VrW79ViCQxg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="500" as="targetPoint" />
+            <mxPoint x="270" y="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="300" y="500" />
+              <mxPoint x="300" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFjYC5-n_VrW79ViCQxg-23" value="confiabilidade porque o compilador verifica o código" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1">
+          <mxGeometry x="320" y="490" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vFjYC5-n_VrW79ViCQxg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="520" as="targetPoint" />
+            <mxPoint x="270" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="300" y="520" />
+              <mxPoint x="300" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFjYC5-n_VrW79ViCQxg-25" value="preenchimento automatico de codigo de forma mais precisa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ndLA-aKq9DVxJ6Pj1Hj2-1">
+          <mxGeometry x="320" y="510" width="330" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
